@@ -73,13 +73,18 @@ console.log(obj);
 var arr = ["test", "123", "+o ve"];
 //0    //1     //2
 //Reading a value of array
+
 var arr5 = arr[1];
 console.log(arr5);
+
 //Inserting a new value
+
 arr.push("a+ ve"); //insert last place
 arr.unshift("93%"); //insert first place
 console.log(arr);
+
 //delete from arr
+
 arr.pop(); //delete last place
 console.log(arr);
 arr.shift(); //delete from first place
@@ -87,6 +92,7 @@ console.log(arr);
 
 //edit array
 //splice
+
 console.log(arr);
 arr.splice(2, 1, "a +ve", "b +ve", "o -ve");
 console.log(arr);
