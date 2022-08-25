@@ -103,10 +103,10 @@ console.log(arr);
 //should start have not captial
 //keyoword of function small letter
 //no special symbols should give for the function
-function test() {
+function captial() {
   var number_1 = 3;
   var number_2 = 5;
   var number_3 = number_1 + number_2;
   console.log(number_3);
 }
-test(); //executes this only this writtern like this
+captial(); //executes this only this writtern like this
